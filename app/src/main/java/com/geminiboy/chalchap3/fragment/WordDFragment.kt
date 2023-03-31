@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.geminiboy.chalchap3.Data
-import com.geminiboy.chalchap3.R
 import com.geminiboy.chalchap3.adapter.DAdapter
 import com.geminiboy.chalchap3.databinding.FragmentWordDBinding
 

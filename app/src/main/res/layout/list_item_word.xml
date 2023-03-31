@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <Button
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btnWord"
-        android:textSize="25sp"
-        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:strokeColor="#159895"
+        app:strokeWidth="0dp"
         android:textAllCaps="true"
+        android:text=""
+        app:shapeAppearance="?attr/shapeAppearanceSmallComponent"
+        android:elevation="2dp"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
 
 </RelativeLayout>

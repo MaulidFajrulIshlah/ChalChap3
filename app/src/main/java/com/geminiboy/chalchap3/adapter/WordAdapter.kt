@@ -36,10 +36,7 @@ class WordAdapter(private val list: List<Char>) : RecyclerView.Adapter<WordAdapt
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder = ViewHolder(
         inflate(LayoutInflater.from(parent.context),parent,false)
     )
-
     override fun onBindViewHolder(holder: WordAdapter.ViewHolder, position: Int) =
         holder.bind(list[position])
-
-
     override fun getItemCount(): Int = list.size
 }
